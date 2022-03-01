@@ -1,9 +1,19 @@
+body{
+    background-color:#FCDDDD;
+    color:black;
+    font-family: "Hiragino Mincho ProN";
+}
 .mddmovie{
     background-color:#FF99CC;
     padding:16px;
     margin-left: auto;
     margin-right: auto;
     width:300px;
+}
+.mddmovie:hover{
+    transform: scale(1.05);
+    color:white;
+    text-decoration:none;
 }
 .block{
     background-color:#FF99CC;
@@ -12,12 +22,22 @@
     margin-right: auto;
     width:300px;
 }
+.block:hover{
+    transform: scale(1.05);
+    color:white;
+    text-decoration:none;
+}
 .return{
     background-color:#FF99CC;
     padding:16px;
     margin-left: auto;
     margin-right: auto;
     width:300px;
+}
+.return:hover{
+    transform: scale(1.05);
+    color:white;
+    text-decoration:none;
 }
 a {
     color: black;
